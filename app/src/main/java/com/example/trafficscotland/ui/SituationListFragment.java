@@ -415,10 +415,9 @@ public class SituationListFragment extends Fragment {
 
         SimpleDateFormat dateFormat =
                 new SimpleDateFormat(
-                        "dd MMM yyyy, HH:mm",
+                        "dd MMM yyyy, HH:mm:ss",
                         Locale.UK
                 );
-
         String formattedDate = dateFormat.format(
                 new Date(timestamp)
         );
